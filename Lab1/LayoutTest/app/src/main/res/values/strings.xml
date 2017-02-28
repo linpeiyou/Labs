@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LayoutTest</string>
+
+    <string name="linear">LinearLayoutTest</string>
+    <string name="relative">RelativeLayoutTest</string>
+    <string name="table">TableLayoutTest</string>
+
+    <string name="_11">One,One</string>
+    <string name="_12">One,Two</string>
+    <string name="_13">One,Three</string>
+    <string name="_14">One,Four</string>
+    <string name="_21">Two,One</string>
+    <string name="_22">Two,Two</string>
+    <string name="_23">Two,Three</string>
+    <string name="_24">Two,Four</string>
+    <string name="_31">Three,One</string>
+    <string name="_32">Three,Two</string>
+    <string name="_33">Three,Three</string>
+    <string name="_34">Three,Four</string>
+    <string name="_41">Four,One</string>
+    <string name="_42">Four,Two</string>
+    <string name="_43">Four,Three</string>
+    <string name="_44">Four,Four</string>
+
+</resources>
