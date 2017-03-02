@@ -7,51 +7,82 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="5dp"
-        android:shrinkColumns="1"
-        android:stretchColumns="2" >
+        android:layout_height="wrap_content">
 
         <TableRow>
             <TextView
                 android:text="Open..."
                 android:layout_weight="1"
+                android:layout_marginLeft="20dp"
                 android:textSize="20dp"/>
             <TextView
                 android:text="Ctrl+O"
+                android:gravity="right"
                 android:textSize="20dp"/>
-
         </TableRow>
 
         <TableRow>
             <TextView
                 android:text="Save..."
                 android:layout_weight="1"
+                android:layout_marginLeft="20dp"
                 android:textSize="20dp"/>
             <TextView
                 android:text="Ctrl+S"
+                android:gravity="right"
                 android:textSize="20dp"/>
-
         </TableRow>
 
         <TableRow>
             <TextView
-                android:text="Open..."
+                android:text="Save As..."
                 android:layout_weight="1"
+                android:layout_marginLeft="20dp"
                 android:textSize="20dp"/>
             <TextView
                 android:text="Ctrl+Shift+S"
+                android:gravity="right"
+                android:textSize="20dp"/>
+        </TableRow>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <TableRow>
+            <TextView
+                android:text="× Import..."
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="× Export..."
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:text="Ctrl+E"
+                android:gravity="right"
+                android:textSize="20dp"/>
+        </TableRow>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <TableRow>
+            <TextView
+                android:text="Quit..."
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
                 android:textSize="20dp"/>
         </TableRow>
 
     </TableLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#000000"/>
-
-
 
 </LinearLayout>

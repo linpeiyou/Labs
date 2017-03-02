@@ -21,6 +21,14 @@
         android:text="ORANGE"/>
 
     <Button
+        android:id="@+id/btn_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/holo_blue_light"
+        android:text="BLUE"/>
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -36,14 +44,6 @@
         android:layout_alignTop="@id/btn_blue"
         android:background="@android:color/holo_green_light"
         android:text="GREEN"/>
-
-    <Button
-        android:id="@+id/btn_blue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:background="@android:color/holo_blue_light"
-        android:text="BLUE"/>
 
     <Button
         android:layout_width="wrap_content"
