@@ -1,12 +1,12 @@
-#UIComponent
-##实验结果：
-###主界面
+# UIComponent
+## 实验结果：
+### 主界面
 ![](https://github.com/linpeiyou/Labs/blob/master/Lab1/UIComponent/image/main.png)
-###ListView
+### ListView
 ![](https://github.com/linpeiyou/Labs/blob/master/Lab1/UIComponent/image/listview.png)
-###ListView with Toast
+### ListView with Toast
 ![](https://github.com/linpeiyou/Labs/blob/master/Lab1/UIComponent/image/listview_toast.png)
-###AlertDialog
+### AlertDialog
 ![](https://github.com/linpeiyou/Labs/blob/master/Lab1/UIComponent/image/alertdialog.png)
-###AlertDialog clicked
+### AlertDialog clicked
 ![](https://github.com/linpeiyou/Labs/blob/master/Lab1/UIComponent/image/alertdialog_toast.png)
