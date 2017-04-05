@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn_listView;
     Button btn_alertDialog;
     Button btn_menu;
+    Button btn_actionMode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_alertDialog.setOnClickListener(this);
         btn_menu = (Button) findViewById(R.id.btn_menu);
         btn_menu.setOnClickListener(this);
+        btn_actionMode = (Button) findViewById(R.id.btn_action_mode);
+        btn_actionMode.setOnClickListener(this);
     }
 
     @Override
@@ -61,8 +64,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btn_menu:
             {
-                //Intent intent = new Intent(this, ListViewActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(this, MenuAcitvity.class);
+                startActivity(intent);
+            } break;
+
+            case R.id.btn_action_mode:
+            {
+                Intent intent = new Intent(this, ActionModeActivity.class);
+                startActivity(intent);
             } break;
         }
     }

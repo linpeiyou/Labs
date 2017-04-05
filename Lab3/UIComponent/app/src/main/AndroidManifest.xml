@@ -17,6 +17,8 @@
         </activity>
 
         <activity android:name=".ListViewActivity"/>
+        <activity android:name=".MenuAcitvity"/>
+        <activity android:name=".ActionModeActivity"/>
     </application>
 
 </manifest>
