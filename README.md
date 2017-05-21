@@ -5,3 +5,4 @@
 - [实验3：UIComponent](https://github.com/linpeiyou/Labs/tree/master/Lab3/UIComponent)
 - [实验4：Preferences](https://github.com/linpeiyou/Labs/tree/master/Lab4)
 - [实验5：WebView](https://github.com/linpeiyou/Labs/tree/master/Lab5)
+- [期中作业：MyNotePad](https://github.com/linpeiyou/Labs/blob/master/MyNotePad)
